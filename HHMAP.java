@@ -37,6 +37,11 @@ public class HHMAP {
            System.out.println(map.getOrDefault(number, 0));
 
 
+       } 
+
+       for(Map.Entry<Integer, Integer> entry: map.entrySet())
+       {
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
        }
     }
 }
